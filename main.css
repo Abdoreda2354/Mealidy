@@ -394,7 +394,7 @@ width: fit-content;
 }
 
 .gallery-imges{
-    height: 66.8125rem;
+    height: 80.8125rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
