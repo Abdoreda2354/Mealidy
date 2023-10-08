@@ -196,12 +196,20 @@ min-height: 105vh;
 }
 .caption-bottom .play{
     background-color: #fff;
-    padding: .8125rem;
+    /* padding: .8125rem; */
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 4;
 }
-
+.watch a{
+    display: flex;
+    align-items: center;
+}
 .caption-bottom .play-border::after{
     content: '';
     position: absolute;
